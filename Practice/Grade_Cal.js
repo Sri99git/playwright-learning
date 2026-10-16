@@ -1,7 +1,11 @@
 // problem statement: 
 // Calculate the letter grade based on a numeric score. 
 // A: 90-100, B: 80-89, C: 70-79, D: 60-69, F: below 60.
-let score = 62;
+let score = 110;
+ if(score >100 || score < 0){
+    console.log("invalid score")
+}else
+{
 if(score>= 90 && score <= 100){
     console.log("Grade: A");
 } else if(score>= 80 && score <= 89){
@@ -12,4 +16,5 @@ if(score>= 90 && score <= 100){
     console.log("Grade: D");
 } else {
     console.log("Grade: F");
+}
 }
