@@ -9,7 +9,8 @@ let is_pramod_enjoy = ( age > 18) ? (age > 25 ? "Goa & Drink" : "No Drink,ONly G
 console.log(`Pramod can Enjoy ${is_pramod_enjoy}`);
 
 //Example 2:
-let age = 20;
+/**let age = 20;
 
 let is_pramod_enjoy = ( age > 18) ? (age > 25 ? "Goa & Drink" : "No Drink,ONly Goa") : "No Goa";
-console.log(`Pramod can Enjoy ${is_pramod_enjoy}`);
+console.log(`Pramod can Enjoy ${is_pramod_enjoy}`);**/
+ 

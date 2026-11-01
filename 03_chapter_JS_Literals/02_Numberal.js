@@ -1,9 +1,8 @@
 let age =  "pramod"; // String literal.
 let age2 =  'pramod'; 
 
-let isStudent = true;
  // This is a boolean literal assigned to the variable 'isStudent'.
-
+let isStudent = true;
  let pi = 3.14;
 
 
@@ -22,3 +21,5 @@ console.log(typeof pi);
 console.log(typeof isStudent);
 console.log(typeof nullValue); // object
 console.log(typeof undefinedValue);
+
+
